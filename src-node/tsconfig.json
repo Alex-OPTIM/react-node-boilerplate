@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "outDir": "../build-node",
+    "sourceMap": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "lib": ["es2019", "es2020.string", "es2020.symbol.wellknown", "dom"],
+    "module": "commonjs",
+    "target": "es2019",
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "../src-node/**/*"
+  ],
+  "exclude": [
+    "../node_modules",
+    "./**/*.spec.ts",
+    "./__tests__/**/*"
+  ]
+}

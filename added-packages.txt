@@ -1,0 +1,2 @@
+yarn add express cors body-parser cookie-parser socket.io
+yarn add -D @blueprintjs/core socket.io-client @types/body-parser @types/cookie-parser @types/cors @types/express @types/socket.io @types/socket.io-client
